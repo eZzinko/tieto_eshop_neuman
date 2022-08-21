@@ -1,6 +1,6 @@
 /** type exports */
-export * from "./Card.types";
+export * from './Card.types';
 
 /** Card component exports */
-export { default as Card } from "./Card";
-export * from "./Card";
+export { default as Card } from './Card';
+export * from './Card';

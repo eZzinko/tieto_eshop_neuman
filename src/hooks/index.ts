@@ -1,5 +1,5 @@
 /** exports for useFormat hook */
-export * from "./useFormat";
+export * from './useFormat';
 
 /** exports for useContetxtRequire hook */
-export * from "./useContextRequire";
+export * from './useContextRequire';

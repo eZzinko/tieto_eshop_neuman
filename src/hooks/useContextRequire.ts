@@ -1,5 +1,5 @@
-import { Context, useContext } from "react";
-import { isDefined } from "../helpers/common";
+import { Context, useContext } from 'react';
+import { isDefined } from '../helpers/common';
 
 /**
  * Hook that return NonNullable context
@@ -8,8 +8,8 @@ import { isDefined } from "../helpers/common";
  */
 
 export const useContextRequired = <T>(context: Context<T>) => {
-  const requiredContext = useContext(context);
-  if (!isDefined(requiredContext)) throw new Error("Context is not active");
+	const requiredContext = useContext(context);
+	if (!isDefined(requiredContext)) throw new Error('Context is not active');
 
-  return requiredContext;
+	return requiredContext;
 };

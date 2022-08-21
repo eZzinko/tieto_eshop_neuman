@@ -1,10 +1,10 @@
-import { HTMLProps } from "react";
-import { productListType } from "../../helpers/data";
+import { HTMLProps } from 'react';
+import { CartProdutDTO } from '../../lib/types';
 
 /**
  * CartItemProps component
  * @export
  */
 export type CartItemProps = {
-  item: productListType;
+	item: CartProdutDTO;
 } & HTMLProps<HTMLDivElement>;

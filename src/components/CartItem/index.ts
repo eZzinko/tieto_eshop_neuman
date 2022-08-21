@@ -1,6 +1,6 @@
 /** type exports */
-export * from "./CartItem.types";
+export * from './CartItem.types';
 
 /** CartItem component exports */
-export { default as CartItem } from "./CartItem";
-export * from "./CartItem";
+export { default as CartItem } from './CartItem';
+export * from './CartItem';
